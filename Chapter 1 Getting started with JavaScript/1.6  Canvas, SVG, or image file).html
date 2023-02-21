@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Canvas,SVG, or image file)</title>
+</head>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas, SVG, or image file)</title>
+ </head>
+ <body>
+    
+ </body>
+ <script>
+     var canvas = document.createElement('canvas');
+     canvas.width = 200;
+     canvas.height = 550;
+ 
+ 
+     var ctx = canvas.getContext('2d');
+ 
+     ctx.font = '50px Areal';
+     ctx.fillText("Hey :))!", 100, 150);
+ 
+     document.body.appendChild(canvas);
+
+     var img = new Image();
+     img.src = 'aa.jpg';
+     document.body.appendChild(img);
+ </script>
+ </html>
