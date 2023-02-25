@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch statement</title>
+</head>
+<body>
+    
+</body>
+<script>
+var value = 1;
+switch (value) {
+ case 1:
+ console.log('I will always run');
+ break;
+ case 2:
+ console.log('I will never run');
+ break;
+}
+var fruits = 'Apple';
+switch (fruits) {
+ case 'Pineapple':
+ console.log('I will not run since fruits !== "Pineapple"');
+ break;
+ case 'grapes':
+ console.log('I will not run since animal !== "grapes"');
+ break;
+ default:
+ console.log('I will run since fruits does not match any other case');
+}
+
+</script>
+</html>
